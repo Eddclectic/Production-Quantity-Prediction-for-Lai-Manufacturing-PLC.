@@ -7,12 +7,19 @@ This project focuses on building machine learning model that predicts production
 **Goal:** To derive the optimal predictive model between a Tree based and Linear based machine learning model for Lai Manufacturing Plc.</br>
 
 **Objectives:**
-* USe simple Random Forest Regression and Bayesian Ridge Regression models as baseline models;
+* Use simple Random Forest Regression and Bayesian Ridge Regression models as baseline models;
 * Carry out hyperparameter tuning on models and evaluate using the MAE,RMSE, and R2 score;
 * Derived the most significant features from the optimal model.</br> 
 
-**Key Models:** Random Forest Regressor and Bayesian Ridge Regression (tuned using Grid Search and AdaBoost regressor as Ensemble method).</br>
-**Target Variable:** Production quantity from production operations in the year 2023.
+**Research Questions:**
+* Which is the best performing predictive model between Random Forest regression and Bayes Ridge regression after tuning for Lai manufacturing plc.
+* What are the most significant features needed to predict production quantity for Lai Manufacturing Plc. 
+
+**Key Models:** 
+* Random Forest Regressor and Bayesian Ridge Regression (tuned using Grid Search and AdaBoost regressor as Ensemble method).
+
+**Target Variable:** 
+* Production quantity from production operations in the year 2023.
 
 #### Setup and Installation
 Prerequisites</br>
